@@ -2,7 +2,7 @@
   "name": "movie-game-search",
   "version": "1.0.0",
   "description": "Eine Anwendung zur Suche nach Filmen und Spielen mit OMDB, TMDB und RAWG APIs",
-  "main": "script.js",
+  "main": "index.html",
   "scripts": {
     "start": "node script.js"
   },
