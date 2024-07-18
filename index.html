@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Filme, TV Serien und Videospiel Suchmaschine</title>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <style src="style.css"></style>
+    <script src="script.js"></script>
+</head>
+<body>
+    <div class="container">
+        <h1>Filme, TV Serien und Videospiel Suchmaschine</h1>
+        <div class="input-group mb-3">
+            <input type="text" id="searchBox" class="form-control" placeholder="Suche Filme, TV Sendungen oder Spiele">
+            <div class="input-group-append">
+                <button class="btn-primary" onclick="searchMovies()">Suche</button>
+            </div>
+        </div>
+        <table id="resultsTable" class="table table-striped">
+            <thead>
+                <tr>
+                    <th>Poster</th>
+                    <th>Titel</th>
+                    <th>Jahr</th>
+                    <th>Typ</th>
+                </tr>
+            </thead>
+            <tbody>
+            </tbody>
+        </table>
+        <div id="pagination">
+            <button id="prevPage" class="btn btn-secondary" onclick="changePage(-1)" disabled>Vorherige Seite</button>
+            <button id="nextPage" class="btn btn-secondary" onclick="changePage(1)" disabled>Nächste Seite</button>
+        </div>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>

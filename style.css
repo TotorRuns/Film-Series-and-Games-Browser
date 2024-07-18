@@ -1,0 +1,30 @@
+body {
+    background-color: #f4f4f4;
+    color: #333;
+}
+h1 {
+    text-align: center;
+    color: #444;
+    margin-top: 20px;
+}
+#searchBox {
+    width: 80%;
+    margin: 20px auto;
+}
+button {
+    display: block;
+    width: 100px;
+    margin: 10px auto;
+}
+table {
+    width: 90%;
+    margin: 20px auto;
+}
+img {
+    max-width: 100px;
+    border-radius: 4px;
+}
+#pagination {
+    text-align: center;
+    margin: 20px 0;
+}
