@@ -1,0 +1,16 @@
+{
+  "name": "movie-game-search",
+  "version": "1.0.0",
+  "description": "Eine Anwendung zur Suche nach Filmen und Spielen mit OMDB, TMDB und RAWG APIs",
+  "main": "script.js",
+  "scripts": {
+    "start": "node script.js"
+  },
+  "author": "TotorRuns",
+  "license": "UNLICENSED",
+  "dependencies": {
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "node-fetch": "^2.6.1"
+  }
+}
